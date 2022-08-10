@@ -29,7 +29,9 @@ const Navbar = () => {
         <h1 style={{color: `${textColor}`}} className='p-4'>SH</h1>
         <ul style={{color: `${textColor}`}} className='hidden font-[500] sm:flex'>
           <li className='p-4 hover:text-orange-500'>Home</li>
-          <li className='p-4 hover:text-orange-500'>Skills</li>
+          <li className='p-4 hover:text-orange-500'>
+            <a href='/#skills'>Skills</a>
+          </li>
           <li className='p-4 hover:text-orange-500'>Projects</li>
           <li className='p-4 hover:text-orange-500'>About Me</li>
           <li className='p-4 hover:text-orange-500'>Contact</li>
