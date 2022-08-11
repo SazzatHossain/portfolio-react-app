@@ -5,6 +5,7 @@ import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState('transparent')
+  const [logo, setLogo] = useState('/logo/color-logo-white.svg')
   const [textColor, setTextColor] = useState('#ffffff')
   const handleNav = () => {
     setNav(!nav)
@@ -15,9 +16,11 @@ const Navbar = () => {
       if(window.scrollY >= 90){
         setColor('#ffffff');
         setTextColor('#000000');
+        setLogo('/logo/color-logo-black.svg');
       }else{
         setColor('transparent');
         setTextColor('#ffffff');
+        setLogo('/logo/color-logo-white.svg');
       }
     };
     window.addEventListener('scroll', changeNavbar)
@@ -26,13 +29,17 @@ const Navbar = () => {
   return (
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-black'>
       <div className='max-w-[1240px] m-auto flex justify-between items-center text-white'>
-        <h1 style={{color: `${textColor}`}} className='p-4'>SH</h1>
+        <img src={logo} alt="" className='p-4' width='110px' height='110px'/>
         <ul style={{color: `${textColor}`}} className='hidden font-[500] sm:flex'>
-          <li className='p-4 hover:text-orange-500'>Home</li>
+          <li className='p-4 hover:text-orange-500'>
+            <a href='/#home'>Home</a>
+          </li>
           <li className='p-4 hover:text-orange-500'>
             <a href='/#skills'>Skills</a>
           </li>
-          <li className='p-4 hover:text-orange-500'>Projects</li>
+          <li className='p-4 hover:text-orange-500'>
+            <a href='/#projects'>Projects</a>
+          </li>
           <li className='p-4 hover:text-orange-500'>About Me</li>
           <li className='p-4 hover:text-orange-500'>Contact</li>
         </ul>
