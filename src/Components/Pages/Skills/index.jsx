@@ -4,7 +4,7 @@ import Skill from "./Skill";
 const Skills = () => {
   return (
     <>
-      <div id="skills" className="w-full  md:h-screen p-6">
+      <div id="skills" className="w-full  md:h-auto p-6">
         <div className='flex flex-col mx-auto  mt-[5rem] justify-center h-auto max-w-[1400px]'>
           <h2 className=' uppercase text-4xl tracking-widest text-orange-500'>Skills</h2>
           <p className='font-bold text-2xl'>Things I can do</p>
