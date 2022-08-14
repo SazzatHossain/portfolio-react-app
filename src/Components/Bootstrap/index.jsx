@@ -4,6 +4,7 @@ import Navbar from '../Navbar';
 import Home from "../Pages/Home";
 import Skills from "../Pages/Skills";
 import Projects from "../Pages/Projects";
+import AboutMe from "../Pages/AboutMe";
 
 const BootLoader = () => {
   return (
@@ -12,6 +13,7 @@ const BootLoader = () => {
       <Home/>
       <Skills />
       <Projects />
+      <AboutMe />
     </BrowserRouter>
   )
 }
