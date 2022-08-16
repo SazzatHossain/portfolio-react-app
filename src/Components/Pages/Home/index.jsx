@@ -15,27 +15,27 @@ const Home = () => {
           <h2 className='text-white uppercase z-10'>A Full-Stack developer </h2>
           <p className='text-white text-center z-10 py-3 w-full '>I'm currently working at <span
             className='text-orange-600 font-bold text-decoration-line: underline'> <a
-            href="https://belivit.com/" target='_'>belivIT</a></span> as a full-stack web developer. My current stack is
+            href="src/Components/Pages/Home/index" target='_'>belivIT</a></span> as a full-stack web developer. My current stack is
             ReactJS for frontend and Ruby on Rails framework with mysql database as backend. I've more than 2.5 years of professional experience on web development. I've done several personal projects and involved in two official projects.</p>
           <div className='flex flex-row items-center justify-between  mx-auto py-4'>
             <a
-              className='rounded-full shadow-lg p-4 shadow-gray-800 cursor-pointer z-10 bg-white md:mx-8 hover: scale-110 ease-in duration-300'
+              className='rounded-full shadow-lg p-4 mx-4 shadow-gray-800 cursor-pointer z-10 bg-white md:mx-8 hover: scale-110 ease-in duration-300'
               href="https://github.com/SazzatHossain" target='_blank'>
               <FaGithub/>
             </a>
             <a
-              className='rounded-full shadow-lg p-4 mx-3  shadow-gray-800 cursor-pointer z-10 bg-white md:mx-8 hover: scale-110 ease-in duration-300'
-              href="https://www.linkedin.com/in/sazzat-hossain-7314b2144/" target='_blank'>
+              className='rounded-full shadow-lg p-4 mx-4 shadow-gray-800 cursor-pointer z-10 bg-white md:mx-8 hover: scale-110 ease-in duration-300'
+              href="src/Components/Pages/Home/index" target='_blank'>
               <FaLinkedin/>
             </a>
             <a
-              className='rounded-full shadow-lg p-4  shadow-gray-800 cursor-pointer z-10 bg-white md:mx-8 hover: scale-110 ease-in duration-300'
-              href="#" target='_blank'>
+              className='rounded-full shadow-lg p-4 mx-4 shadow-gray-800 cursor-pointer z-10 bg-white md:mx-8 hover: scale-110 ease-in duration-300'
+              href="/#first_name">
               <AiOutlineMail />
             </a>
             <a
-              className='rounded-full shadow-lg p-4  mx-3 shadow-gray-800 cursor-pointer z-10 bg-white md:mx-8 hover: scale-110 ease-in duration-300'
-              href="#" target='_blank'>
+              className='rounded-full shadow-lg p-4 mx-4 shadow-gray-800 cursor-pointer z-10 bg-white md:mx-8 hover: scale-110 ease-in duration-300'
+              href="src/Components/Pages/Home/index#" target='_blank'>
               <BsFillPersonLinesFill />
             </a>
           </div>
