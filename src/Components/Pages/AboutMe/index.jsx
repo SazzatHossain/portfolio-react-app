@@ -5,8 +5,8 @@ const AboutMe = () => {
   return (
     <>
       <div id='about-me' className='w-full p-6'>
-        <div className='max-w-[1400px] mx-auto px-2 '>
-          <h2 className=' uppercase text-4xl tracking-widest text-orange-500'>About me</h2>
+        <div className='flex flex-col mx-auto  mt-[5rem] justify-center h-auto max-w-[1400px]'>
+          <h2 className=' uppercase text-3xl tracking-widest text-orange-500'>About me</h2>
           <p className='font-bold text-2xl'>Who Am I?</p>
           <div className='mt-12 grid md:grid-cols-2 lg:grid-cols-2 gap-8'>
             <div className='col-span-1'>
@@ -23,12 +23,12 @@ const AboutMe = () => {
                   1.5 years experience in
                   React JS. I am currently working in <span
                     className='text-orange-600 font-bold text-decoration-line: underline'> <a
-                    href="https://belivit.com/" target='_'>belivIT.</a></span> for almost 2 years and involve in two
+                    href="src/Components/Pages/AboutMe/index" target='_'>belivIT.</a></span> for almost 2 years and involve in two
                   major projects of the company.</p>
                 <p className='text-justify py-4'>
                   I've got my BSc. degree on "Computer Science and Engineering" from <span
                   className='text-orange-600 font-bold text-decoration-line: underline'><a
-                  href="https://nwu.edu.bd/" target='_'>North Western University, Khulna</a> </span>
+                  href="src/Components/Pages/AboutMe/index" target='_'>North Western University, Khulna</a> </span>
                   in 2018 with CGPA of 3.20.
                 </p>
                 <p className='text-justify'>

@@ -35,13 +35,13 @@ const Navbar = () => {
             <a href='/#home'>Home</a>
           </li>
           <li className='p-4 hover:text-orange-500'>
+            <a href='/#about-me'>About Me</a>
+          </li>
+          <li className='p-4 hover:text-orange-500'>
             <a href='/#skills'>Skills</a>
           </li>
           <li className='p-4 hover:text-orange-500'>
             <a href='/#projects'>Projects</a>
-          </li>
-          <li className='p-4 hover:text-orange-500'>
-            <a href='/#about-me'>About Me</a>
           </li>
           <li className='p-4 hover:text-orange-500'>
             <a href='/#contact'>Contact</a>
