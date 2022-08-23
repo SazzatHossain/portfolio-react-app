@@ -9,8 +9,8 @@ const Projects = () => {
           <h2 className=' uppercase text-3xl tracking-widest text-orange-500'>Projects</h2>
           <p className='font-bold text-2xl'>Things I've built</p>
           <div className='grid md:grid-cols-2 lg:grid-cols-2 gap-8'>
-            <Project ProjectName="BookFlix" BuiltWith="React & Ruby on Rails" ImageUrl="/projects/bookflix.png"/>
-            <Project ProjectName="Portfolio" BuiltWith="React & Tailwind CSS" ImageUrl="/projects/portfolio.png"/>
+            <Project ProjectName="BookFlix" BuiltWith="React & Ruby on Rails" ImageUrl="/projects/bookflix.png" ProjectUrl='/bookflix-page'/>
+            <Project ProjectName="Portfolio" BuiltWith="React & Tailwind CSS" ImageUrl="/projects/portfolio.png" ProjectUrl= '/portfolio-page'/>
           </div>
         </div>
       </div>

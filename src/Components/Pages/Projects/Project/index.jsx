@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
-const Project = ({ProjectName, BuiltWith, ImageUrl}) => {
+const Project = ({ProjectName, BuiltWith, ImageUrl, ProjectUrl}) => {
   return (
     <>
       <div
@@ -12,7 +12,7 @@ const Project = ({ProjectName, BuiltWith, ImageUrl}) => {
             {ProjectName}
           </h3>
           <p className='text-xl text-white text-center py-4'>{BuiltWith}</p>
-          <Link to="#">
+          <Link to={ProjectUrl} target='_blank'>
             <p className='text-gray-500 bg-white text-xl font-bold p-2 cursor-pointer rounded-xl'>
               More Info
             </p>
