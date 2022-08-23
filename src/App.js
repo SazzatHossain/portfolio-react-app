@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import BootLoader from './Components/Bootstrap';
 import Navbar from "./Components/Navbar";

@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-black'>
-      <div className='max-w-[1240px] m-auto flex justify-between items-center text-white'>
+      <div className='m-auto flex justify-between items-center text-white lg:max-w-[75vw]'>
         <img src={logo} alt="" className='p-4' width='110px' height='110px'/>
         <ul style={{color: `${textColor}`}} className='hidden font-[500] sm:flex'>
           <li className='p-4 hover:text-orange-500'>
