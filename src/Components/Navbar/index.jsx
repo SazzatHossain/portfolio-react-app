@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-black'>
       <div className='m-auto flex justify-between items-center text-white lg:max-w-[75vw]'>
-        <img src={logo} alt="" className='p-4' width='110px' height='110px'/>
+        <img src={logo} alt="" className='p-4 z-[100]' width='110px' height='110px'/>
         <ul style={{color: `${textColor}`}} className='hidden font-[500] sm:flex'>
           <li className='p-4 hover:text-orange-500'>
             <a href='/#home'>Home</a>
@@ -49,17 +49,27 @@ const Navbar = () => {
         </ul>
 
         <div className='block p-4 sm:hidden z-[100]'>
-          {nav ? <AiOutlineClose  onClick={handleNav} size={20} style={{color: `${textColor}`}}/> :
+          {nav ? <AiOutlineClose onClick={handleNav} size={20} style={{color: `${textColor}, zIndex: "100"`}}/> :
             <AiOutlineMenu onClick={handleNav} size={20} style={{color: `${textColor}`}}/>}
         </div>
         <div
-          className={nav ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0  flex justify-center items-center w-full h-screen bg-black z-[20] text-center ease-in duration-300' : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'}>
-          <ul>
-            <li className='p-4 text-4xl hover:text-gray-500' >Home</li>
-            <li className='p-4 text-4xl hover:text-gray-500'>Skills</li>
-            <li className='p-4 text-4xl hover:text-gray-500'>Projects</li>
-            <li className='p-4 text-4xl hover:text-gray-500'>About Me</li>
-            <li className='p-4 text-4xl hover:text-gray-500'>Contact</li>
+          className={nav ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0  flex justify-center items-center w-full h-screen bg-gray-700 z-[20] text-center ease-in duration-300' : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'}>
+          <ul >
+            <li className='p-4 text-4xl hover:text-orange-500' onClick={handleNav} >
+              <a href='/#home'>Home</a>
+            </li>
+            <li className='p-4 text-4xl hover:text-orange-500' onClick={handleNav}>
+              <a href='/#about-me'>About Me</a>
+            </li>
+            <li className='p-4 text-4xl hover:text-orange-500' onClick={handleNav}>
+              <a href='/#skills'>Skills</a>
+            </li>
+            <li className='p-4 text-4xl hover:text-orange-500' onClick={handleNav}>
+              <a href='/#projects'>Projects</a>
+            </li>
+            <li className='p-4 text-4xl hover:text-orange-500' onClick={handleNav}>
+              <a href='/#contact'>Contact</a>
+            </li>
           </ul>
         </div>
       </div>
