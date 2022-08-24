@@ -26,22 +26,22 @@ const Contact = () => {
                 </div>
                 <div className='flex flex-row items-center justify-between  mx-auto my-6 gap-4 '>
                   <a
-                    className='rounded-full shadow-lg p-4 shadow-gray-800 cursor-pointer z-10 bg-white md:mx-8 hover: scale-110 ease-in duration-300'
+                    className='rounded-full shadow-lg p-4 shadow-gray-800 cursor-pointer  bg-white md:mx-8 hover: scale-110 ease-in duration-300'
                     href="https://www.facebook.com/SazzatHossainDipto/" target='_blank'>
                     <AiFillFacebook/>
                   </a>
                   <a
-                    className='rounded-full shadow-lg p-4 shadow-gray-800 cursor-pointer z-10 bg-white md:mx-8 hover: scale-110 ease-in duration-300'
+                    className='rounded-full shadow-lg p-4 shadow-gray-800 cursor-pointer bg-white md:mx-8 hover: scale-110 ease-in duration-300'
                     href="src/Components/Pages/Home/index" target='_blank'>
                     <FaLinkedin/>
                   </a>
                   <a
-                    className='rounded-full shadow-lg p-4 shadow-gray-800 cursor-pointer z-10 bg-white md:mx-8 hover: scale-110 ease-in duration-300'
+                    className='rounded-full shadow-lg p-4 shadow-gray-800 cursor-pointer bg-white md:mx-8 hover: scale-110 ease-in duration-300'
                     href="https://github.com/SazzatHossain" target='_blank'>
                     <AiFillInstagram/>
                   </a>
                   <a
-                    className='rounded-full shadow-lg p-4  shadow-gray-800 cursor-pointer z-10 bg-white md:mx-8 hover: scale-110 ease-in duration-300'
+                    className='rounded-full shadow-lg p-4  shadow-gray-800 cursor-pointer bg-white md:mx-8 hover: scale-110 ease-in duration-300'
                     href="src/Components/Pages/Home/index#" target='_blank'>
                     <AiOutlineMail/>
                   </a>
