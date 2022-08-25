@@ -11,6 +11,7 @@ const Projects = () => {
           <div className='grid md:grid-cols-2 lg:grid-cols-2 gap-8'>
             <Project ProjectName="BookFlix" BuiltWith="React & Ruby on Rails" ImageUrl="/projects/bookflix.png" ProjectUrl='/bookflix-page'/>
             <Project ProjectName="Portfolio" BuiltWith="React & Tailwind CSS" ImageUrl="/projects/portfolio.png" ProjectUrl= '/portfolio-page'/>
+            <Project ProjectName="BoiBuzz" BuiltWith="Ruby on Rails" ImageUrl="/projects/boibuzz.png" ProjectUrl= '/boibuzz-page'/>
           </div>
         </div>
       </div>
