@@ -12,7 +12,7 @@ const Project = ({ProjectName, BuiltWith, ImageUrl, ProjectUrl}) => {
             {ProjectName}
           </h3>
           <p className='text-xl text-white text-center py-4'>{BuiltWith}</p>
-          <Link to={ProjectUrl} target='_blank'>
+          <Link to={ProjectUrl} target='_blank' rel="noreferrer">
             <p className='text-gray-500 bg-white text-xl font-bold p-2 cursor-pointer rounded-xl'>
               More Info
             </p>

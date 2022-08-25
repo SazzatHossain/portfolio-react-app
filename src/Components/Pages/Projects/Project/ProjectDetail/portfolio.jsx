@@ -8,7 +8,7 @@ const PortfolioPage = () => {
       <div className="w-full">
         <div className=' w-screen h-[40vh] lg: relative'>
           <div className='absolute top-0 right-0 bottom-0 w-full bg-black/70 z-[2]'/>
-          <img src="/projects/portfolio2.png" loading='lazy' className='absolute z-1 flex w-screen h-full'/>
+          <img src="/projects/portfolio2.png" loading='lazy' alt="" className='absolute z-1 flex w-screen h-full'/>
           <div
             className='relative top-[60%] m-auto flex flex-col justify-between items-start text-white z-[3] p-2 lg:max-w-[75vw]'>
             <h2 className='py-2'>Portfolio</h2>
@@ -28,12 +28,14 @@ const PortfolioPage = () => {
             <a
               href='https://github.com/SazzatHossain/portfolio-react-app'
               target='_blank'
+              rel="noreferrer"
             >
               <button className='px-8 py-2 mt-4 mr-8'>Code</button>
             </a>
             <a
               href='#'
               target='_blank'
+              rel="noreferrer"
             >
               <button className='px-8 py-2 my-4'>Demo</button>
             </a>

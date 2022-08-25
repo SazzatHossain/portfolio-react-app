@@ -1,7 +1,6 @@
 import React from 'react';
 import {FaLinkedin} from "react-icons/fa";
 import {AiFillFacebook, AiFillInstagram, AiOutlineMail} from "react-icons/ai";
-import {Link} from "react-router-dom";
 import {HiOutlineChevronDoubleUp} from "react-icons/hi";
 
 const Contact = () => {
@@ -27,24 +26,24 @@ const Contact = () => {
                 <div className='flex flex-row items-center justify-between  mx-auto my-6 gap-4 '>
                   <a
                     className='rounded-full shadow-lg p-4 shadow-gray-800 cursor-pointer  bg-white md:mx-8 hover: scale-110 ease-in duration-300'
-                    href="https://www.facebook.com/SazzatHossainDipto/" target='_blank'>
+                    href="https://www.facebook.com/SazzatHossainDipto/" target='_blank' rel="noreferrer">
                     <AiFillFacebook/>
                   </a>
                   <a
                     className='rounded-full shadow-lg p-4 shadow-gray-800 cursor-pointer bg-white md:mx-8 hover: scale-110 ease-in duration-300'
-                    href="src/Components/Pages/Home/index" target='_blank'>
+                    href="https://www.linkedin.com/in/sazzat-hossain-7314b2144/" target='_blank' rel="noreferrer">
                     <FaLinkedin/>
                   </a>
                   <a
                     className='rounded-full shadow-lg p-4 shadow-gray-800 cursor-pointer bg-white md:mx-8 hover: scale-110 ease-in duration-300'
-                    href="https://github.com/SazzatHossain" target='_blank'>
+                    href="https://www.instagram.com/sazzat_hossain_dipto/" target='_blank' rel="noreferrer">
                     <AiFillInstagram/>
                   </a>
-                  <a
-                    className='rounded-full shadow-lg p-4  shadow-gray-800 cursor-pointer bg-white md:mx-8 hover: scale-110 ease-in duration-300'
-                    href="src/Components/Pages/Home/index#" target='_blank'>
+                  <div
+                    onClick={() =>  navigator.clipboard.writeText('sazzathossaindipto@gmail.com')}
+                    className='rounded-full shadow-lg p-4  shadow-gray-800 cursor-pointer bg-white md:mx-8 hover: scale-110 ease-in duration-300'>
                     <AiOutlineMail/>
-                  </a>
+                  </div>
                 </div>
               </div>
             </div>
