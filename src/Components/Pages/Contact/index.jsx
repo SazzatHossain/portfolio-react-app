@@ -23,25 +23,25 @@ const Contact = () => {
                   <p className='text-justify'>I am available for freelance jobs or can also hire me for a full time
                     developer for your company. From below options you can connect with me. </p>
                 </div>
-                <div className='flex flex-row items-center justify-between  mx-auto my-6 gap-4 '>
+                <div className='flex flex-row items-center justify-between  mx-auto my-6 gap-4  '>
                   <a
-                    className='rounded-full shadow-lg p-4 shadow-gray-800 cursor-pointer  bg-white md:mx-8 hover: scale-110 ease-in duration-300'
+                    className='rounded-full shadow-lg p-4 shadow-gray-800 cursor-pointer mx-2 bg-white lg:mx-8 hover: scale-110 ease-in duration-300'
                     href="https://www.facebook.com/SazzatHossainDipto/" target='_blank' rel="noreferrer">
                     <AiFillFacebook/>
                   </a>
                   <a
-                    className='rounded-full shadow-lg p-4 shadow-gray-800 cursor-pointer bg-white md:mx-8 hover: scale-110 ease-in duration-300'
+                    className='rounded-full shadow-lg p-4 shadow-gray-800 cursor-pointer bg-white mx-2 lg:mx-8 hover: scale-110 ease-in duration-300'
                     href="https://www.linkedin.com/in/sazzat-hossain-7314b2144/" target='_blank' rel="noreferrer">
                     <FaLinkedin/>
                   </a>
                   <a
-                    className='rounded-full shadow-lg p-4 shadow-gray-800 cursor-pointer bg-white md:mx-8 hover: scale-110 ease-in duration-300'
+                    className='rounded-full shadow-lg p-4 shadow-gray-800 cursor-pointer bg-white mx-2 lg:mx-8 hover: scale-110 ease-in duration-300'
                     href="https://www.instagram.com/sazzat_hossain_dipto/" target='_blank' rel="noreferrer">
                     <AiFillInstagram/>
                   </a>
                   <div
                     onClick={() =>  navigator.clipboard.writeText('sazzathossaindipto@gmail.com')}
-                    className='rounded-full shadow-lg p-4  shadow-gray-800 cursor-pointer bg-white md:mx-8 hover: scale-110 ease-in duration-300'>
+                    className='rounded-full shadow-lg p-4  shadow-gray-800 cursor-pointer bg-white mx-2 lg:mx-8 hover: scale-110 ease-in duration-300'>
                     <AiOutlineMail/>
                   </div>
                 </div>
