@@ -32,7 +32,7 @@ const Navbar = () => {
         <a href='/#home ' className='z-[100]'>
           <img src={logo} alt="" className='p-4 ' width='110px' height='110px'/>
         </a>
-        <ul style={{color: `${textColor}`}} className='hidden uppercase font-[500] sm:flex'>
+        <ul style={{color: `${textColor}`}} className='hidden uppercase text-xs font-[500] sm:flex lg:text-lg'>
           <li className='p-4 hover:text-orange-500'>
             <a href='/#home'>Home</a>
           </li>
@@ -48,7 +48,7 @@ const Navbar = () => {
           <li className='p-4 hover:text-orange-500'>
             <a href='/#contact'>Contact</a>
           </li>
-          <li className="ml-6 mt-1">
+          <li className="ml-6 mt-1 mr-4">
             <button
               onClick={(e) => {
                 e.preventDefault();

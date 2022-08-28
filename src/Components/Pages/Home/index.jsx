@@ -18,22 +18,22 @@ const Home = () => {
             ReactJS for frontend and Ruby on Rails framework with mysql database as backend. I've more than 2.5 years of professional experience on web development. I've done several personal projects and involved in two official projects.</p>
           <div className='flex flex-row items-center justify-between  mx-auto py-4'>
             <a
-              className='rounded-full shadow-lg p-4 mx-4 shadow-gray-800 cursor-pointer bg-white md:mx-8 hover: scale-110 ease-in duration-300'
+              className='rounded-full shadow-lg p-4 mx-4 shadow-gray-800 cursor-pointer bg-white mx-3 lg:mx-8 hover: scale-110 ease-in duration-300'
               href="https://github.com/SazzatHossain" target='_blank' rel="noreferrer">
               <FaGithub/>
             </a>
             <a
-              className='rounded-full shadow-lg p-4 mx-4 shadow-gray-800 cursor-pointer bg-white md:mx-8 hover: scale-110 ease-in duration-300'
+              className='rounded-full shadow-lg p-4 mx-4 shadow-gray-800 cursor-pointer bg-white mx-3 lg:mx-8 hover: scale-110 ease-in duration-300'
               href="https://www.linkedin.com/in/sazzat-hossain-7314b2144/" target='_blank' rel="noreferrer">
               <FaLinkedin/>
             </a>
             <div
               onClick={() =>  navigator.clipboard.writeText('sazzathossaindipto@gmail.com')}
-              className='rounded-full shadow-lg p-4 mx-4 shadow-gray-800 cursor-pointer bg-white md:mx-8 hover: scale-110 ease-in duration-300'>
+              className='rounded-full shadow-lg p-4 mx-4 shadow-gray-800 cursor-pointer bg-white mx-3 lg:mx-8 hover: scale-110 ease-in duration-300'>
               <AiOutlineMail />
             </div>
             <a
-              className='rounded-full shadow-lg p-4 mx-4 shadow-gray-800 cursor-pointer  bg-white md:mx-8 hover: scale-110 ease-in duration-300'
+              className='rounded-full shadow-lg p-4 mx-4 shadow-gray-800 cursor-pointer  bg-white mx-3 lg:mx-8 hover: scale-110 ease-in duration-300'
               href="/#first_name" >
               <BsFillPersonLinesFill />
             </a>
