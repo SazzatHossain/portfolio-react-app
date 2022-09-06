@@ -27,16 +27,20 @@ const Home = () => {
               href="https://www.linkedin.com/in/sazzat-hossain-7314b2144/" target='_blank' rel="noreferrer">
               <FaLinkedin/>
             </a>
-            <div
-              onClick={() =>  navigator.clipboard.writeText('sazzathossaindipto@gmail.com')}
+            <a
+              href='/#first_name'
+              // onClick={() =>  navigator.clipboard.writeText('sazzathossaindipto@gmail.com')}
               className='rounded-full shadow-lg p-4 mx-4 shadow-gray-800 cursor-pointer bg-white mx-3 lg:mx-8 hover: scale-110 ease-in duration-300'>
               <AiOutlineMail />
-            </div>
-            <a
-              className='rounded-full shadow-lg p-4 mx-4 shadow-gray-800 cursor-pointer  bg-white mx-3 lg:mx-8 hover: scale-110 ease-in duration-300'
-              href="/#first_name" >
-              <BsFillPersonLinesFill />
             </a>
+            <span
+              onClick={(e) => {
+                e.preventDefault();
+                window.open('https://drive.google.com/file/d/1s5yp3C_SW4pZppLIyPPm-WdJiYaGhqYK/view', '_blank')
+              }}
+              className='rounded-full shadow-lg p-4 mx-4 shadow-gray-800 cursor-pointer  bg-white mx-3 lg:mx-8 hover: scale-110 ease-in duration-300'>
+              <BsFillPersonLinesFill />
+            </span>
           </div>
         </div>
       </div>
